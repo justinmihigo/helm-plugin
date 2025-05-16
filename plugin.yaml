@@ -1,0 +1,14 @@
+name: last
+version: 0.1.0
+usage: get the last release name
+description: get the last release name
+ignoreFlags: false
+command: "./scripts/envcheck.sh"
+# platformCommand:
+#   - command: ${HELM_BIN}
+#     args:
+#       - list
+#       - --short
+#       - --max=1
+#       - --date
+#       - -r
